@@ -31,7 +31,6 @@ php artisan vendor:publish --provider="Fessnik\Zoom\ZoomServiceProvider"
 ```
 
 After that you will see `zoom.php` file in config directory, where you add value for api_key and api_secret
-```
 
 ### Step 4: Remove the package
 If you answered "no" on "Remove this package?" question after scaffolding you can remove 
@@ -45,3 +44,4 @@ Open `config/app.php` and remove the provider:
 
 ```
 Fessnik\Zoom\ZoomServiceProvider::class
+```
