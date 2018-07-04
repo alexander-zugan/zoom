@@ -45,4 +45,3 @@ Open `config/app.php` and remove the provider:
 
 ```
 Fessnik\Zoom\ZoomServiceProvider::class
-```
