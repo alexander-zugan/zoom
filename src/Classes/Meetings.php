@@ -26,7 +26,7 @@ class Meetings extends Request
      * @param array $data
      * @return array|mixed
      */
-    public function create(string $userId, array $data)
+    public function create(string $userId, array $data = null)
     {
         return $this->post("users/{$userId}/meetings", $data);
     }
@@ -39,7 +39,7 @@ class Meetings extends Request
      */
     public function meeting(string $meetingId)
     {
-        return $this->get("meetings/{$meetingId}/recordings");
+        return $this->get("meetings/{$meetingId}");
     }
 
     /**
