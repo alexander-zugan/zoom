@@ -1,6 +1,6 @@
 {
     "name": "fessnik/zoom",
-    "description": "Complete zoom API client for Laravel",
+    "description": "zoom API client for Laravel",
     "keywords": ["zoom", "api", "client", "laravel"],
     "license": "MIT",
     "authors": [
